@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libopencv_signal.a CMakeFiles/opencv_signal.dir/src/signal_resample.cpp.o
-/usr/bin/ranlib ../../lib/libopencv_signal.a

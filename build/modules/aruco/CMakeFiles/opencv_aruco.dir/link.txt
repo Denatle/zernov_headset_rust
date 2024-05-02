@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../lib/libopencv_aruco.a CMakeFiles/opencv_aruco.dir/src/aruco.cpp.o CMakeFiles/opencv_aruco.dir/src/aruco_calib.cpp.o CMakeFiles/opencv_aruco.dir/src/charuco.cpp.o
-/usr/bin/ranlib ../../lib/libopencv_aruco.a
