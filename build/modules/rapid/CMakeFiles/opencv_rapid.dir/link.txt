@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libopencv_rapid.a CMakeFiles/opencv_rapid.dir/src/histogram.cpp.o CMakeFiles/opencv_rapid.dir/src/rapid.cpp.o
+/usr/bin/ranlib ../../lib/libopencv_rapid.a

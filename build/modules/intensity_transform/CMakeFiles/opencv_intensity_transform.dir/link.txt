@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libopencv_intensity_transform.a CMakeFiles/opencv_intensity_transform.dir/src/bimef.cpp.o CMakeFiles/opencv_intensity_transform.dir/src/intensity_transform.cpp.o
+/usr/bin/ranlib ../../lib/libopencv_intensity_transform.a

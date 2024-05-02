@@ -1,0 +1,23 @@
+# Target labels
+ Extra
+ opencv_signal
+ Module
+# Source files and their labels
+/home/denatle/Rust/zernov_headset_rust/opencv_contrib-4.x/modules/signal/include/opencv2/signal.hpp
+ Extra
+ opencv_signal
+ Module
+/home/denatle/Rust/zernov_headset_rust/opencv_contrib-4.x/modules/signal/include/opencv2/signal/signal_resample.hpp
+ Extra
+ opencv_signal
+ Module
+/home/denatle/Rust/zernov_headset_rust/opencv_contrib-4.x/modules/signal/src/signal_resample.cpp
+ Extra
+ opencv_signal
+ Module
+/home/denatle/Rust/zernov_headset_rust/opencv_contrib-4.x/modules/signal/src/precomp.hpp
+ Extra
+ opencv_signal
+ Module
+/home/denatle/Rust/zernov_headset_rust/build/cvconfig.h
+/home/denatle/Rust/zernov_headset_rust/build/opencv2/opencv_modules.hpp
