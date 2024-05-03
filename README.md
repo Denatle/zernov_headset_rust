@@ -23,7 +23,7 @@ and additionally to support more OpenCV modules:
 `zypper install opencv-devel clang-devel gcc-c++`
 
 # План
-- [ ] Загрузка картинки (opencv)
+- [x] Загрузка картинки (opencv)
 - [ ] Определение руки на картинке (mediapipe)
 - [ ] Потоковое определение
 - [ ] Параллелизация определения и вывода
