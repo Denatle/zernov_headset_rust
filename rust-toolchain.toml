@@ -1,0 +1,5 @@
+[toolchain]
+channel = "stable-2022-12-15"
+components = [ "rustfmt", "rustc-dev" ]
+targets = [ "x86_64-unknown-linux-gnu" ]
+profile = "minimal"

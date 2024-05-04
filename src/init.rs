@@ -5,10 +5,7 @@ use core::panic;
 use opencv::{highgui, prelude::Mat};
 
 pub fn init(cam1_id: i32, _cam2_id: Option<i32>) -> Result<(), ()> {
-    let mut cam1 = match Camera::new(cam1_id) {
-        Ok(c) => c,
-        Err(e) => panic!("Error: {}", e),
-    };
+    let mut cam1 = Camera::new(cam1_id).expect("Error");
     loop {
         let mut frame = Mat::default();
         match cam1.get_frame(&mut frame) {
@@ -20,14 +17,8 @@ pub fn init(cam1_id: i32, _cam2_id: Option<i32>) -> Result<(), ()> {
             },
         };
 
-        match highgui::imshow("Cam1", &frame) {
-            Ok(_) => (),
-            Err(e) => panic!("Error: {}", e),
-        };
-        let key = match highgui::wait_key(10) {
-            Ok(k) => k,
-            Err(e) => panic!("Error: {}", e),
-        };
+        highgui::imshow("Cam1", &frame).expect("Error");
+        let key = highgui::wait_key(10).expect("Error");
         if key > 0 && key != 255 {
             break;
         }
